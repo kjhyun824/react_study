@@ -1,6 +1,6 @@
 {
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "eslint-snake-case", "promise-catch"],
+  "parser": "@babel/parser",
+  "plugins": ["@babel-eslint", "eslint-snake-case", "promise-catch"],
   "env": {
     "es6": true
   },
@@ -11,9 +11,9 @@
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
+    "prettier/@babel-eslint",
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
+    "prettier/@babel-eslint",
     "prettier/react",
     "prettier"
   ],
@@ -40,25 +40,25 @@
     "operator-linebreak": "off",
     "default-case": "off",
     "no-fallthrough": "off",
-    "@typescript-eslint/no-non-null-assertion": "off",
+    "@babel-eslint/no-non-null-assertion": "off",
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
     "class-methods-use-this": "off",
-    "@typescript-eslint/no-unused-expressions": "off",
+    "@babel-eslint/no-unused-expressions": "off",
     "comma-dangle": "off",
     "import/no-extraneous-dependencies": "off",
     "import/no-unresolved": "off",
-    "@typescript-eslint/no-explicit-any": "off",
+    "@babel-eslint/no-explicit-any": "off",
     "no-underscore-dangle": "off",
     "camelcase": "off",
-    "@typescript-eslint/camelcase": "off",
+    "@babel-eslint/camelcase": "off",
     "prettier/prettier": ["error"]
   },
   "overrides": [
     {
       "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
       "rules": {
-        "@typescript-eslint/explicit-function-return-type": "off"
+        "@babel-eslint/explicit-function-return-type": "off"
       }
     }
   ]
