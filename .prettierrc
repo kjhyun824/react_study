@@ -1,5 +1,5 @@
 {
-  "parser": "typescript",
+  "parser": "babel",
   "printWidth": 120,
   "bracketSpacing": true,
   "htmlWhitespaceSensitivity": "css",
