@@ -2,9 +2,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+function getButtonText() {
+    return 'Click Me Now!'
+}
+
 // Create React component
 const App = function () {
-    return <div> Hello, World! </div>;
+    const button_name = 'Click Me!';
+    const button_style = { 
+        backgroundColor: 'blue', 
+        color: 'white' 
+    };
+
+    return <div>
+        <label className="label" htmlFor="name">
+            Enter name:
+        </label>
+        <input id="name" type="text" />
+        <button style={button_style}>
+            {button_name}
+        </button>
+    </div>;
 };
 
 
