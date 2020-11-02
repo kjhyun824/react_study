@@ -1,6 +1,6 @@
 {
   "parser": "babel",
-  "printWidth": 120,
+  "printWidth": 80,
   "bracketSpacing": true,
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
