@@ -52,7 +52,8 @@
     "no-underscore-dangle": "off",
     "camelcase": "off",
     "@babel-eslint/camelcase": "off",
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["error"],
+    "react/jsx-max-props-per-line": [1, { "when": "multiline" }]
   },
   "overrides": [
     {

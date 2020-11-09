@@ -2,6 +2,7 @@ import React from 'react';
 //import axios from 'axios';
 import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar';
+import ImageList from './ImageList';
 class App extends React.Component {
   state = { images: [] };
 
@@ -25,7 +26,6 @@ class App extends React.Component {
       });
   };
   */
-
   onSearchSubmit = async (input) => {
     const response = await unsplash.get('/search/photos', {
       params: {
@@ -45,6 +45,7 @@ class App extends React.Component {
         ) : (
           <></>
         )}
+        <ImageList images={this.state.images} />
       </div>
     );
   }
