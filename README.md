@@ -12,3 +12,4 @@
 - Lecture 7. Handling User Input with Forms and Events
 - Lecture 8. Making API Requests with React
 - Lecture 9. Building Lists of Records
+- Lecture 10. Using Ref's for DOM Access
