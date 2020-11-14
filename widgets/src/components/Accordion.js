@@ -1,17 +1,21 @@
 import React from 'react';
 
 const Accordion = ({ items }) => {
-  const rendered_item = items.map((item) => {
+  const onTitleClick = (index) => {
+    console.log('Title Clicked : ', index);
+  };
+
+  const rendered_item = items.map((item, index) => {
     return (
-      <div key={item.title}>
-        <div className="title active">
+      <React.Fragment key={item.title}>
+        <div className="title active" onClick={() => onTitleClick(index)}>
           <i className="dropdown icon"></i>
           {item.title}
         </div>
         <div className="content active">
           <p>{item.content}</p>
         </div>
-      </div>
+      </React.Fragment>
     );
   });
 
