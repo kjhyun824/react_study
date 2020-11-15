@@ -10,6 +10,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
+    "plugin:import/no-anonymous-default-export",
     "plugin:@typescript-eslint/recommended",
     "prettier/@babel-eslint",
     "plugin:prettier/recommended",
@@ -33,6 +34,15 @@
     ],
     "import/extensions": ["warning", {
       "ts": "never"
+    }],
+    "import/no-anonymous-default-export": ["error", {
+      "allowArrow": true,
+      "allowArrowFunction": true,
+      "allowAnonymousClass": true,
+      "allowAnonymousFunction": true,
+      "allowCallExpression": true, // The true value here is for backward compatibility
+      "allowLiteral": false,
+      "allowObject": false
     }],
     "no-unused-expressions": "off",
     "no-plusplus": "off",
