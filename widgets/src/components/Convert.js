@@ -34,7 +34,9 @@ const Convert = ({ language, text }) => {
       setOutput(data.data.translations[0].translatedText);
     };
 
-    translate();
+    if (debounced !== '') {
+      translate();
+    }
   }, [language, debounced]);
 
   return (
