@@ -16,3 +16,6 @@
 - [SKIP] Lecture 11. Let's Test Your React Mastery
 - Lecture 12. Understanding Hooks in React
 - Lecture 13. Navigation From Scratch
+- [SKIP] Lecture 14. Hooks in Practice
+- [SKIP] Lecture 15. Deployment a React App
+- Lecture 16. On We Go... To Redux!
