@@ -19,3 +19,4 @@
 - [SKIP] Lecture 14. Hooks in Practice
 - [SKIP] Lecture 15. Deployment a React App
 - Lecture 16. On We Go... To Redux!
+- Lecture 17. Integrating React with Redux
