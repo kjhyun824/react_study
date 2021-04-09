@@ -1,5 +1,5 @@
 {
-  "name": "jh_practice",
+  "name": "@meeting/jh_practice",
   "version": "1.0.0",
   "description": "Practice for package",
   "main": "dist/index.js",
