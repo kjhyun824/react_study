@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/react": "*",
     "@types/react-native": "*",
+    "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "2.25.0",
     "@typescript-eslint/parser": "2.25.0",
     "eslint": "6.8.0",
@@ -45,5 +46,13 @@
     "react": "*",
     "react-native": "*",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "@types/styled-components-react-native": "^5.1.1",
+    "react-native-safe-area-context": "^3.2.0",
+    "styled-components": "^5.2.3",
+    "styled-components-react-native": "^1.0.0"
   }
 }

@@ -7,24 +7,11 @@
  */
 
 import React from 'react';
-import {StyleSheet, SafeAreaView} from 'react-native';
 
 import JHPractice from './dist';
 
 const App = () => {
-	return (
-		<SafeAreaView style={styles.container}>
-			<JHPractice />
-		</SafeAreaView>
-	);
+  return <JHPractice />;
 };
-
-const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-	},
-});
 
 export default App;
