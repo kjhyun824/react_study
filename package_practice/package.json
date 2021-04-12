@@ -7,6 +7,7 @@
     "lint": "eslint --ext .tsx --ext .ts src/",
     "format": "prettier --check ./src",
     "start": "rm -rf dist && tsc -w --outDir dist",
+    "build": "rm -rf dist && tsc -w --outDir dist",
     "prepare": "rm -rf dist && tsc"
   },
   "author": "Junghyun Kim",
