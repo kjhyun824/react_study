@@ -2,3 +2,4 @@ package-lock.json
 yarn.lock
 .vscode
 settings.json
+node_modules

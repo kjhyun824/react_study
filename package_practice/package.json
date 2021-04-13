@@ -1,0 +1,58 @@
+{
+  "name": "@meeting/jh_practice",
+  "version": "1.0.1",
+  "description": "Practice for package",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint --ext .tsx --ext .ts src/",
+    "format": "prettier --check ./src",
+    "start": "rm -rf dist && tsc -w --outDir dist",
+    "build": "rm -rf dist && tsc -w --outDir dist",
+    "prepare": "rm -rf dist && tsc"
+  },
+  "author": "Junghyun Kim",
+  "license": "ISC",
+  "types": "dist/index.d.ts",
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --ext .tsx --ext .ts src/ --fix"
+    ],
+    "./src/**": [
+      "prettier --write ."
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "@types/styled-components": "^5.1.9",
+    "@typescript-eslint/eslint-plugin": "2.25.0",
+    "@typescript-eslint/parser": "2.25.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.1",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.9",
+    "prettier": "2.0.2",
+    "react": "*",
+    "react-native": "*",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "@types/styled-components-react-native": "^5.1.1",
+    "react-native-safe-area-context": "^3.2.0",
+    "styled-components": "^5.2.3",
+    "styled-components-react-native": "^1.0.0"
+  }
+}
