@@ -11,20 +11,32 @@ import ThirdPage from './components/third_page';
 
 const AppStack = createStackNavigator();
 
+interface PackageProps {
+  is_embed: boolean;
+}
+
 const default_screen_options: StackNavigationOptions = {
   headerShown: false,
   gestureEnabled: false,
 };
 
-const JHPractice = (): ReactElement => {
+const JHPractice = ({ is_embed }: PackageProps): ReactElement => {
   return (
     <NavigationContainer>
-      <AppStack.Navigator initialRouteName={ApplicationPage.FirstPage}>
-        <AppStack.Screen
-          name={ApplicationPage.FirstPage}
-          component={FirstPage}
-          options={default_screen_options}
-        />
+      <AppStack.Navigator
+        initialRouteName={
+          is_embed ? ApplicationPage.SecondPage : ApplicationPage.FirstPage
+        }
+      >
+        {is_embed ? (
+          <AppStack.Screen
+            name={ApplicationPage.FirstPage}
+            component={FirstPage}
+            options={default_screen_options}
+          />
+        ) : (
+          <></>
+        )}
         <AppStack.Screen
           name={ApplicationPage.SecondPage}
           component={SecondPage}
