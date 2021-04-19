@@ -28,7 +28,7 @@ const JHPractice = ({ is_embed }: PackageProps): ReactElement => {
           is_embed ? ApplicationPage.SecondPage : ApplicationPage.FirstPage
         }
       >
-        {is_embed ? (
+        {!is_embed ? (
           <AppStack.Screen
             name={ApplicationPage.FirstPage}
             component={FirstPage}
@@ -44,9 +44,10 @@ const JHPractice = ({ is_embed }: PackageProps): ReactElement => {
         />
         <AppStack.Screen
           name={ApplicationPage.ThirdPage}
-          component={ThirdPage}
           options={default_screen_options}
-        />
+        >
+          {(props) => <ThirdPage {...props} is_embed={is_embed} />}
+        </AppStack.Screen>
       </AppStack.Navigator>
     </NavigationContainer>
   );

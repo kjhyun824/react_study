@@ -10,12 +10,15 @@ var default_screen_options = {
     headerShown: false,
     gestureEnabled: false,
 };
-var JHPractice = function () {
+var JHPractice = function (_a) {
+    var is_embed = _a.is_embed;
     return (<NavigationContainer>
-      <AppStack.Navigator initialRouteName={ApplicationPage.FirstPage}>
-        <AppStack.Screen name={ApplicationPage.FirstPage} component={FirstPage} options={default_screen_options}/>
+      <AppStack.Navigator initialRouteName={is_embed ? ApplicationPage.SecondPage : ApplicationPage.FirstPage}>
+        {!is_embed ? (<AppStack.Screen name={ApplicationPage.FirstPage} component={FirstPage} options={default_screen_options}/>) : (<></>)}
         <AppStack.Screen name={ApplicationPage.SecondPage} component={SecondPage} options={default_screen_options}/>
-        <AppStack.Screen name={ApplicationPage.ThirdPage} component={ThirdPage} options={default_screen_options}/>
+        <AppStack.Screen name={ApplicationPage.ThirdPage} options={default_screen_options}>
+          {function (props) { return <ThirdPage {...props} is_embed={is_embed}/>; }}
+        </AppStack.Screen>
       </AppStack.Navigator>
     </NavigationContainer>);
 };
