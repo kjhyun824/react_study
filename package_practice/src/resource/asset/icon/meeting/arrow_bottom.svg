@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/arrow_bottom</title>
+    <g id="Icon/arrow_bottom" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="keyboard_arrow_down-24px">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <g id="Group-3" transform="translate(5.000000, 9.000000)" fill="#5C5C5C">
+                <path d="M13.7559,0.34492 C13.3929,-0.07408 12.7619,-0.11608 12.3449,0.24392 L6.9999,4.87492 L1.6549,0.24392 C1.2379,-0.11708 0.6079,-0.07308 0.2439,0.34492 C-0.1171,0.76192 -0.0721,1.39392 0.3449,1.75592 L5.9379,6.60092 C6.2359,6.86592 6.6209,6.99892 7.0029,6.99892 C7.3829,6.99892 7.7619,6.86892 8.0539,6.60892 L13.6549,1.75592 C14.0719,1.39392 14.1169,0.76192 13.7559,0.34492" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

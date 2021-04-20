@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/system/panel</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/system/panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16.1666667,3 C16.626904,3 17,3.39175084 17,3.875 L17,16.125 C17,16.6082492 16.626904,17 16.1666667,17 L7.83333333,17 C7.37309604,17 7,16.6082492 7,16.125 L7,3.875 C7,3.39175084 7.37309604,3 7.83333333,3 L16.1666667,3 Z M5.2,3 C5.6418278,3 6,3.3581722 6,3.8 L6,16.2 C6,16.6418278 5.6418278,17 5.2,17 L3.8,17 C3.3581722,17 3,16.6418278 3,16.2 L3,3.8 C3,3.3581722 3.3581722,3 3.8,3 L5.2,3 Z" id="Shape" fill="#000000"></path>
+    </g>
+</svg>

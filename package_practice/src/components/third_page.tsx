@@ -13,7 +13,7 @@ const ThirdPage = ({ is_embed }: ThirdPageProps): ReactElement => {
     console.log('[DEBUG] Third Page');
     console.log('[DEBUG] is_embed : ', is_embed);
     setTimeout(() => {
-      if (is_embed) navigation.navigate(ApplicationPage.SecondPage);
+      if (is_embed) navigation.navigate(ApplicationPage.PowderPage);
       else {
         navigation.navigate(ApplicationPage.FirstPage);
       }

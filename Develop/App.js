@@ -8,7 +8,7 @@
 
 import React from 'react';
 
-import JHPractice from './dist';
+import JHPractice from '@meeting/jh_practice';
 
 const App = () => {
   return <JHPractice is_embed={true}/>;

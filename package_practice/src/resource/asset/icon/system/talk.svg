@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/system/talk</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/system/talk" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14,2 C16.7614237,2 19,4.23857625 19,7 L19,11 C19,13.7614237 16.7614237,16 14,16 L3.847,16 L2.39679777,18 C2.26360825,18.2184022 2.0239577,18.35 1.75,18.35 C1.33578644,18.35 1,18.0142136 1,17.6 C1,17.5712352 1.00161934,17.5428486 1.00477183,17.5149263 L1,17.5139183 L1,7 C1,4.23857625 3.23857625,2 6,2 L14,2 Z M13,4 L7,4 C4.790861,4 3,5.790861 3,8 L3,8 L3,14 L13,14 C15.209139,14 17,12.209139 17,10 L17,10 L17,8 C17,5.790861 15.209139,4 13,4 L13,4 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

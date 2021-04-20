@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/system/delete</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/system/delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14,8 L14,17 L6,17 L6,8 L14,8 M12.4814077,2 L7.51859226,2 C7.27636911,2 7.04237915,2.08791825 6.86008765,2.24742331 L6,3 L6,3 L3.20661979,3 C2.65433504,3 2.20661979,3.44771525 2.20661979,4 C2.20661979,4.55228475 2.65433504,5 3.20661979,5 L16.6080128,5 C17.1602976,5 17.6080128,4.55228475 17.6080128,4 C17.6080128,3.44771525 17.1602976,3 16.6080128,3 L14,3 L14,3 L13.1399123,2.24742331 C12.9576209,2.08791825 12.7236309,2 12.4814077,2 Z M16,6 L4,6 L4,17.1428571 C4,18.1642857 4.9,19 6,19 L14,19 C15.1,19 16,18.1642857 16,17.1428571 L16,6 Z" id="Shape" fill="#000000"></path>
+    </g>
+</svg>

@@ -1,6 +1,6 @@
 {
   "name": "@meeting/jh_practice",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Practice for package",
   "main": "dist/index.js",
   "scripts": {
@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/react": "*",
     "@types/react-native": "*",
+    "@types/react-native-extra-dimensions-android": "^1.2.0",
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "2.25.0",
     "@typescript-eslint/parser": "2.25.0",
@@ -51,7 +52,13 @@
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.4",
     "@types/styled-components-react-native": "^5.1.1",
+    "react-native-extra-dimensions-android": "^1.2.5",
+    "react-native-orientation-locker": "^1.2.0",
     "react-native-safe-area-context": "^3.2.0",
+    "react-native-status-bar": "file:./native_modules/StatusBar",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
     "styled-components": "^5.2.3",
     "styled-components-react-native": "^1.0.0"
   }

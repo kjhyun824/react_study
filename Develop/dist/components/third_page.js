@@ -10,7 +10,7 @@ var ThirdPage = function (_a) {
         console.log('[DEBUG] is_embed : ', is_embed);
         setTimeout(function () {
             if (is_embed)
-                navigation.navigate(ApplicationPage.SecondPage);
+                navigation.navigate(ApplicationPage.PowderPage);
             else {
                 navigation.navigate(ApplicationPage.FirstPage);
             }
