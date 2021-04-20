@@ -16,6 +16,9 @@ export enum ButtonType {
   FOOTER_MEETING_END,
 }
 
+export const DEFAULT_PROFILE_IMAGE = '';
+export const DEFAULT_APPSERVER_URL = 'https://testmeeting.tmaxos.com/restapi';
+
 export enum PopupDialogType {
   USERLIST_LEADER_CHANGE,
   USERLIST_FORCE_KICK_OUT,
@@ -146,10 +149,6 @@ export const DEFAULT_LINK_URL = 'tmax://hypermeeting.biz';
 export const ROOM_ID_TEMPLATE = '000-000-0000';
 export const MAX_ROOM_NAME_LENGTH = 50;
 export const MIN_ROOM_NAME_LENGTH = 1;
-
-export const LOGIN_BACKGROUND_IMAGE = require('../resource/asset/image/login/login_background.png');
-export const LANDING_IMAGE = require('../resource/asset/image/landing/group2.png');
-export const BACKGROUND_IMAGE = require('../resource/asset/image/landing/background.jpg');
 
 export const DEFAULT_VIDEO_WIDTH = 360;
 export const DEFAULT_VIDEO_HEIGHT = 480;

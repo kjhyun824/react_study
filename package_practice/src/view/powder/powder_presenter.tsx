@@ -2,12 +2,11 @@ import React, { useLayoutEffect } from 'react';
 import { StatusBar } from 'react-native';
 import styled from 'styled-components/native';
 import Orientation from 'react-native-orientation-locker';
-import { SampleBlock, SampleText } from '../../styles/style';
 
-import {
-  getStatusBarHeight,
-  getBottomNavigatorHeight,
-} from '../../util/device_screen';
+import { getStatusBarHeight, getBottomNavigatorHeight, getContentHeight } from '../../util/device_screen';
+import Header from './header';
+import PowderContent from './content';
+import { HEADER_HEIGHT } from '../../constant/common_constant';
 
 const PowderRoomBlock = styled.View`
   flex: 1;
@@ -22,28 +21,25 @@ const StatusBarBlock = styled.View`
   background-color: #3a3a3a;
 `;
 
-/*
 const HeaderBlock = styled.View`
   width: 100%;
   height: ${HEADER_HEIGHT}px;
   background-color: #353333;
 `;
 
-const ContentBlock =
-  styled.View <
-  { bottom_include: boolean } >
-  `
+// 16/9: 1.7777
+// 9/16: 0.5625
+// aspect-ratio: 0.5625;
+
+/*${getContentHeight(false) - HEADER_HEIGHT}px;*/
+const ContentBlock = styled.View<{ bottom_include: boolean }>`
   height: ${(props) => {
     return getContentHeight(props.bottom_include) - HEADER_HEIGHT;
   }}px;
   background-color: black; //353333;
 `;
-*/
 
-const BottomNavigatorBlock =
-  styled.View <
-  { bottom_include: boolean } >
-  `
+const BottomNavigatorBlock = styled.View<{ bottom_include: boolean }>`
   height: ${(props) => {
     return getBottomNavigatorHeight(props.bottom_include);
   }}px;
@@ -63,16 +59,14 @@ const PowderPresenter = () => {
   return (
     <PowderRoomBlock>
       <StatusBarBlock>
-        <StatusBar
-          barStyle="light-content"
-          backgroundColor="transparent"
-          animated={true}
-          translucent={true}
-        />
+        <StatusBar barStyle="light-content" backgroundColor="transparent" animated={true} translucent={true} />
       </StatusBarBlock>
-      <SampleBlock>
-        <SampleText>Welcome to Powder!!!</SampleText>
-      </SampleBlock>
+      <HeaderBlock>
+        <Header title={''} />
+      </HeaderBlock>
+      <ContentBlock bottom_include={bottom_include}>
+        <PowderContent />
+      </ContentBlock>
       <BottomNavigatorBlock bottom_include={bottom_include} />
     </PowderRoomBlock>
   );
