@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/system/calendar</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/system/calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M13,2 C13.5522847,2 14,2.44771525 14,3 L14,4 L16,4 C16.5522847,4 17,4.44771525 17,5 L17,16 C17,16.5522847 16.5522847,17 16,17 L4,17 C3.44771525,17 3,16.5522847 3,16 L3,5 C3,4.44771525 3.44771525,4 4,4 L6,4 L6,3 C6,2.44771525 6.44771525,2 7,2 C7.55228475,2 8,2.44771525 8,3 L8,4 L12,4 L12,3 C12,2.44771525 12.4477153,2 13,2 Z M15,6 L5,6 L5,15 L15,15 L15,6 Z M11,11 L11,13 L9,13 L9,11 L11,11 Z M14,11 L14,13 L12,13 L12,11 L14,11 Z M8,8 L8,10 L6,10 L6,8 L8,8 Z M11,8 L11,10 L9,10 L9,8 L11,8 Z M14,8 L14,10 L12,10 L12,8 L14,8 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+</svg>

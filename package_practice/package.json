@@ -1,6 +1,6 @@
 {
   "name": "@meeting/jh_practice",
-  "version": "1.0.1",
+  "version": "1.0.21",
   "description": "Practice for package",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,6 @@
   },
   "author": "Junghyun Kim",
   "license": "ISC",
-  "types": "dist/index.d.ts",
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "eslint --ext .tsx --ext .ts src/ --fix"
@@ -33,10 +32,13 @@
   "devDependencies": {
     "@types/react": "*",
     "@types/react-native": "*",
+    "@types/react-native-extra-dimensions-android": "^1.2.0",
+    "@types/react-native-webrtc": "^1.75.2",
     "@types/styled-components": "^5.1.9",
-    "@typescript-eslint/eslint-plugin": "2.25.0",
-    "@typescript-eslint/parser": "2.25.0",
-    "eslint": "6.8.0",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "2.5.1",
@@ -45,14 +47,29 @@
     "prettier": "2.0.2",
     "react": "*",
     "react-native": "*",
-    "typescript": "^3.7.5"
+    "typescript": "^4.0.2"
   },
   "dependencies": {
+    "@meeting/meeting-core": "^5.3.0",
+    "@react-native-community/eslint-config": "^2.0.0",
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.4",
     "@types/styled-components-react-native": "^5.1.1",
+    "mobx": "^6.2.0",
+    "mobx-react": "^7.1.0",
+    "react-native-extra-dimensions-android": "^1.2.5",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-modal": "^11.10.0",
+    "react-native-orientation-locker": "^1.2.0",
     "react-native-safe-area-context": "^3.2.0",
+    "react-native-status-bar": "file:./native_modules/StatusBar",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-webrtc": "git+http://teemeeting_guest:tmax19970603@192.168.1.239:3000/teemeeting/react-native-webrtc.git#472bbec0",
     "styled-components": "^5.2.3",
-    "styled-components-react-native": "^1.0.0"
+    "styled-components-react-native": "^1.0.0",
+    "uuid": "^8.3.2"
   }
 }

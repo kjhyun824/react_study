@@ -2,12 +2,18 @@ import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { ApplicationPage } from '../constant/navigation';
 import { SampleBlock, SampleText } from '../styles/style';
-var ThirdPage = function () {
+var ThirdPage = function (_a) {
+    var is_embed = _a.is_embed;
     var navigation = useNavigation();
     useFocusEffect(function () {
         console.log('[DEBUG] Third Page');
+        console.log('[DEBUG] is_embed : ', is_embed);
         setTimeout(function () {
-            navigation.navigate(ApplicationPage.FirstPage);
+            if (is_embed)
+                navigation.navigate(ApplicationPage.PowderPage);
+            else {
+                navigation.navigate(ApplicationPage.FirstPage);
+            }
         }, 3000);
         return function () {
             console.log('[DEBUG] Third leave');

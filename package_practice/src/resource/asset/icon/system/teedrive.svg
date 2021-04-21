@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon/system/teedrive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/system/teedrive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/work_exchange.svg">
+            <rect id="work_notebook.svg" x="0" y="0" width="20" height="20"></rect>
+        </g>
+        <g id="drive-copy" transform="translate(1.000000, 1.000000)" fill="#000000">
+            <path d="M9,0 C13.9705627,0 18,4.02943725 18,9 C18,13.9705627 13.9705627,18 9,18 C4.02943725,18 0,13.9705627 0,9 C0,4.02943725 4.02943725,0 9,0 Z M13.5,7 L4.5,7 C4.22385763,7 4,7.22385763 4,7.5 L4,7.5 L4,13.5 C4,13.7761424 4.22385763,14 4.5,14 L4.5,14 L13.5,14 C13.7761424,14 14,13.7761424 14,13.5 L14,13.5 L14,7.5 C14,7.22385763 13.7761424,7 13.5,7 L13.5,7 Z M10.25,9.5 L10.3517706,9.50684662 C10.7178461,9.55650904 11,9.87030423 11,10.25 C11,10.6642136 10.6642136,11 10.25,11 L10.25,11 L7.75,11 L7.64822944,10.9931534 C7.28215388,10.943491 7,10.6296958 7,10.25 C7,9.83578644 7.33578644,9.5 7.75,9.5 L7.75,9.5 L10.25,9.5 Z M13.25,4 L4.75,4 C4.33578644,4 4,4.33578644 4,4.75 C4,5.16421356 4.33578644,5.5 4.75,5.5 L4.75,5.5 L13.25,5.5 C13.6642136,5.5 14,5.16421356 14,4.75 C14,4.33578644 13.6642136,4 13.25,4 L13.25,4 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

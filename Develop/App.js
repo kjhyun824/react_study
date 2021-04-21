@@ -11,7 +11,7 @@ import React from 'react';
 import JHPractice from '@meeting/jh_practice';
 
 const App = () => {
-  return <JHPractice />;
+  return <JHPractice is_embed={true}/>;
 };
 
 export default App;
